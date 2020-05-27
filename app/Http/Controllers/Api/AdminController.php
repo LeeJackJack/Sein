@@ -13,23 +13,23 @@
 
         public function getData(Request $request)
         {
+            $id = $request->get('id');
             $account = $request->get('account');
             $secret = $request->get('secret');
+            $name = 'Dev'.$id;
 
-            $refs = Speedy::getModelInstance('user_equip_ref')->where('userid',$account)->where('password',$secret)->get(['station_code']);
-            $data=[];
-            foreach ($refs as $r)
+            $refs = Speedy::getModelInstance('user_equip_ref')->where('station_code',$name)->where('userid',$account)->where('password',$secret)->first();
+            $data = [];
+            if ($refs)
             {
-                $result = Speedy::getModelInstance( 'equip' )->where( 'station_code' , $r->station_code )->orderBy( 'create_time' , 'DESC' )->first()->toArray();
-                $temp = [];
+                $result = Speedy::getModelInstance( 'equip' )->where( 'station_code' , $name )->orderBy( 'create_time' , 'DESC' )->first()->toArray();
                 foreach ( $result as $key => $value )
                 {
                     if ($value)
                     {
-                        array_set($temp,$key,$value);
+                        array_set($data,$key,$value);
                     }
                 }
-                array_push($data,$temp);
             }
             return response()->json([
                 'data'=>$data,
