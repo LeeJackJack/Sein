@@ -2,239 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22139a31-c1be-4502-aee6-5de1671d231e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ActivityController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminOverseaActivitySignUpController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CompanyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/GovernmentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/InformUserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/JobController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/JoinGroupChatController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LikeDoctorController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LikeProjectController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PhdController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProjectController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RecommendController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RequirementController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SignUpController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SpController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TalentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UpdateLogController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/WeeklyReportController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/DoctorController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/LedController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/SendEmailController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Excel/DataController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Fix/FixBugController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OverseaActivitySignUpController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Sms/SendSmsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Wechat/CityController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Wechat/WechatController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Imports/FirstSheetImport.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Imports/HaiZhuReport.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/SendEmail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Activity.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Banner.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/CcpRestSms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Company.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ContactInfo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Education.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Feedback.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/FoshanDoctor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/FoshanDoctorLike.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Government.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/GroupQrCode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Honor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/InformUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Job.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Label.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/LabelRel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Led.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/LikeProject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Logs/EmailLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Logs/SearchLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Logs/SelectCityLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Logs/SelectIndustryLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Logs/UpdateLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Logs/ViewLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OverseaActivitySignUp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PersonalInfo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PhdCandidate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Projects.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Recommend.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/RecommendData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/RegisterCount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Requirements.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/School.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SignUp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Sms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SmsLog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Sp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SpecialSubject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Talents.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ThirdSession.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/UniqueUsersCount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Working.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/excel/Haizhu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repository/Interfaces/ArticleModelInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repository/Repositories/ArticleModelRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/excel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/oss.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/speedy.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/speedy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wechat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/yuntongxun.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_11_23_112638_create_banners_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_11_23_113207_create_labels_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_11_23_113411_create_label_rels_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_07_184005_create_companies_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_07_184056_create_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_11_114511_create_feedback_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_11_115240_create_activities_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_11_115819_create_recommends_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_12_135519_create_sign_ups_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_12_141248_create_sps_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_12_151146_create_third_sessions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_103117_create_sms_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_145328_create_sms_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_18_092913_create_recommend_datas_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_01_153100_create_view_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_01_171743_create_search_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_02_095902_create_select_city_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_02_095937_create_select_industry_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_08_150645_create_inform_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_093125_create_projects_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_094411_create_personal_infos_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_151712_create_education_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_151726_create_workings_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_11_151737_create_honors_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_17_092642_create_register_counts_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_17_092711_create_unique_users_counts_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_23_143449_create_like_projects_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_04_28_173345_create_update_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_09_100453_create_talents_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_09_101442_create_contact_infos_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_20_114206_create_email_logs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_134920_create_oversea_activity_sign_ups_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_23_093919_create_special_subjects_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_14_111100_create_requirements_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_25_094011_create_leds_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_05_163822_create_haizhus_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_11_102229_create_foshan_doctors_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_11_102252_create_foshan_doctor_likes_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_24_113301_create_governments_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_13_094425_create_phd_candidates_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_20_111423_create_schools_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/FoShanActitvity/detail.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/FoShanActitvity/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/FoShanActitvity/input.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/FoShanActitvity/likeInput.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/activity_show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/haiZhu.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ledShowCompany.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ledShowProject.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/showQrCode.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/success.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/testLoading.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/flash/message.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/show_sub_pages/activity_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/show_sub_pages/activity_sign_up.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/show_sub_pages/form_field.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/sub_pages/activity_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/activity/sub_pages/form_field.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/show_sub_pages/company_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/show_sub_pages/company_qr_code.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/company/sub_pages/company_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/email/email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/email/inform_company_recommend.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/email/inform_company_resume.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/email/inform_received_resume.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/email/inform_send_resume.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/government/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/government/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/show_sub_pages/job_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/show_sub_pages/job_qr_code.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/sub_pages/job_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/like_doctor/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/like_project/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/like_project/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/like_project/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/oversea_activity/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/phd/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/phd/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/sub_pages/cx_people.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/sub_pages/cx_principle.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/sub_pages/cx_story.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/sub_pages/cx_tech.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/product/sub_pages/product_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/project/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/project/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/project/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/sub_pages/hint_control.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/sub_pages/recommend_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/recommend/sub_pages/send_email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/requirement/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/requirement/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/sp/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/sp/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/tag/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/show_sub_pages/talent_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/show_sub_pages/talent_contact_history.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/show_sub_pages/talent_wanted_job.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/show_sub_pages/upload_resume.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/sub_pages/talent_basic.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/sub_pages/talent_contact_history.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/talent/sub_pages/upload_resume.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/update_log/edit-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/update_log/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/update_log/index-vue.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/update_log/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/weekly_report/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/weekly_report/sub_pages/activity_data.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/weekly_report/sub_pages/jobs_data.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/weekly_report/sub_pages/register_user_data.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/admin/weekly_report/sub_pages/user_data.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/layouts/loading.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/layouts/null_page.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/partials/alert.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/speedy/partials/sidebar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/ueditor/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/ueditor/head.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/writerQrCode.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -282,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="165">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -294,17 +62,17 @@
       <file leaf-file-name="Users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2343">
+            <state relative-caret-position="2376">
               <caret line="72" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -312,8 +80,8 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="429">
+              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -343,6 +111,11 @@
               <caret line="27" column="83" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -438,12 +211,12 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/JobController.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/speedy/admin/job/edit-vue.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_05_26_175136_create_equips_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Equips.php" />
         <option value="$PROJECT_DIR$/config/speedy.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -589,8 +362,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="22" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -603,7 +376,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -694,6 +466,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -707,7 +480,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BoCuHui" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -1070,12 +843,13 @@
       <workItem from="1590482523926" duration="32000" />
       <workItem from="1590483923653" duration="703000" />
       <workItem from="1590485961406" duration="3767000" />
-      <workItem from="1590497566674" duration="7155000" />
+      <workItem from="1590497566674" duration="18706000" />
+      <workItem from="1590541494705" duration="4956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2455588000" />
+    <option name="totallyTimeSpent" value="2472095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1095,23 +869,23 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24800797" />
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.48406374" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.28286853" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.24010417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" visible="true" weight="0.24010417" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.5004975" side_tool="true" weight="0.23802084" />
       <window_info anchor="right" x="1463" y="223" width="282" height="313" id="Structure" order="5" sideWeight="0.49850747" side_tool="true" weight="0.27395833" />
       <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868525" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout>
     <layout-to-restore>
@@ -1120,23 +894,23 @@
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
-      <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.18697916" />
       <window_info anchor="right" x="1463" y="223" width="282" height="313" id="Structure" order="5" sideWeight="0.49850747" side_tool="true" weight="0.18385416" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.319403" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3313433" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.5004975" side_tool="true" weight="0.23802084" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026042" side_tool="true" weight="0.33843017" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3313433" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1187,13 +961,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1310,7 +1077,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2343">
+        <state relative-caret-position="2376">
           <caret line="72" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="72" selection-end-column="9" />
         </state>
       </provider>
@@ -1336,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/speedy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
@@ -1352,15 +1112,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="429">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
         </state>
       </provider>
     </entry>
