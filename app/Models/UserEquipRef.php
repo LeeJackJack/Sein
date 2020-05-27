@@ -4,10 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Equips extends Model
+class UserEquipRef extends Model
 {
-    protected $table = 't_station_data_1min';
-    protected $primaryKey = 'data_id';
+    protected $table = 't_user_api';
+    protected $primaryKey = 'infoid';
     protected $keyType = 'string';
 
     //禁用自带时间戳更新功能
@@ -20,28 +20,8 @@ class Equips extends Model
      */
     protected $fillable = [
         'station_code' ,
-        'timestamp' ,
-        'lon' ,
-        'lat' ,
-        'no' ,
-        'no2' ,
-        'co' ,
-        'co2' ,
-        'o3' ,
-        'so2' ,
-        'voc' ,
-        'cho' ,
-        'pm1' ,
-        'pm25' ,
-        'pm10' ,
-        'temp' ,
-        'humi' ,
-        'press' ,
-        'prec' ,
-        'speed' ,
-        'direction' ,
-        'aqhi' ,
-        'create_time' ,
+        'userid' ,
+        'password' ,
     ];
 
     /**
@@ -50,7 +30,7 @@ class Equips extends Model
      * @var array
      */
     protected $hidden = [
-        'data_id','create_time'
+        //
     ];
 
     public static function boot()

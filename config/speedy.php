@@ -19,6 +19,7 @@
                 'permission'               => 'Permission' ,
                 'permission_role'          => 'PermissionRole' ,
                 'equip' => 'Equips',
+                'user_equip_ref' => 'UserEquipRef',
             ] ,
         ] ,
 
@@ -37,6 +38,7 @@
             'user'                     => 'pt_user' ,
             'permission_role'          => 'permission_role' ,
             'equip' => 't_station_data_1min',
+            'user_equip_ref' => 't_user_api',
         ] ,
 
         /**
