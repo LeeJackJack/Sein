@@ -25,7 +25,7 @@
                 $result = Speedy::getModelInstance( 'equip' )->where( 'station_code' , $name )->orderBy( 'create_time' , 'DESC' )->first()->toArray();
                 foreach ( $result as $key => $value )
                 {
-                    if ($value)
+                    if ($value != null)
                     {
                         array_set($data,$key,$value);
                     }

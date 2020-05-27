@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22139a31-c1be-4502-aee6-5de1671d231e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="321">
+              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -98,8 +97,8 @@
       <file leaf-file-name="Equips.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Equips.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="763">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -857,12 +856,12 @@
       <workItem from="1590483923653" duration="703000" />
       <workItem from="1590485961406" duration="3767000" />
       <workItem from="1590497566674" duration="18706000" />
-      <workItem from="1590541494705" duration="15704000" />
+      <workItem from="1590541494705" duration="16594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2482843000" />
+    <option name="totallyTimeSpent" value="2483733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1109,13 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Equips.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_27_143923_create_user_equip_refs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1144,10 +1136,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Equips.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="321">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
         </state>
       </provider>
     </entry>
