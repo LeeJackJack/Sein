@@ -15,7 +15,7 @@
         {
             $id = $request->get('id');
             $account = $request->get('account');
-            $secret = $request->get('secret');
+            $secret = $request->get('password');
             $name = 'Dev'.$id;
 
             $refs = Speedy::getModelInstance('user_equip_ref')->where('station_code',$name)->where('userid',$account)->where('password',$secret)->first();
