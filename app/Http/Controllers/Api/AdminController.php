@@ -48,7 +48,7 @@
         public function getData( Request $request )
         {
             //接收参数
-            $id = $request->get( 'id' );
+            $id = $request->get( 'station_id' );
             //$account = $request->get( 'account' );
             $secret = $request->get( 'password' );
             $monitor_ids = explode( ',' , $request->get( 'monitor_ids' ) );

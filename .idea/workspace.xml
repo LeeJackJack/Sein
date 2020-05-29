@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22139a31-c1be-4502-aee6-5de1671d231e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1119">
-              <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+            <state relative-caret-position="403">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
               <folding>
                 <element signature="e#52#88#0#PHP" expanded="true" />
               </folding>
@@ -871,12 +870,12 @@
       <workItem from="1590497566674" duration="18706000" />
       <workItem from="1590541494705" duration="22795000" />
       <workItem from="1590627488261" duration="11479000" />
-      <workItem from="1590714355595" duration="18432000" />
+      <workItem from="1590714355595" duration="18474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2519845000" />
+    <option name="totallyTimeSpent" value="2519887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +895,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24800797" />
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" weight="0.35756972" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.35756972" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.24010417" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.32935324" />
@@ -1166,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119">
-          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        <state relative-caret-position="403">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding>
             <element signature="e#52#88#0#PHP" expanded="true" />
           </folding>
