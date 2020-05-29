@@ -50,7 +50,7 @@
             //接收参数
             $id = $request->get( 'station_id' );
             //$account = $request->get( 'account' );
-            $secret = $request->get( 'password' );
+            $secret = $request->get( 'key' );
             $monitor_ids = explode( ',' , $request->get( 'monitor_ids' ) );
             $now = Carbon::now()->timestamp;
 
