@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22139a31-c1be-4502-aee6-5de1671d231e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +71,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="462">
+              <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -82,8 +80,11 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="-1119">
+              <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+              <folding>
+                <element signature="e#52#88#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>key</find>
       <find>current_change</find>
       <find>prev</find>
       <find>signTotal</find>
@@ -176,6 +176,7 @@
       <find>del</find>
       <find>searchName</find>
       <find>edit</find>
+      <find>9203M200500116</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,8 +239,8 @@
         <option value="$PROJECT_DIR$/app/Models/UserEquipRef.php" />
         <option value="$PROJECT_DIR$/config/speedy.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" />
       </list>
     </option>
@@ -870,12 +871,12 @@
       <workItem from="1590497566674" duration="18706000" />
       <workItem from="1590541494705" duration="22795000" />
       <workItem from="1590627488261" duration="11479000" />
-      <workItem from="1590714355595" duration="13459000" />
+      <workItem from="1590714355595" duration="18432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2514872000" />
+    <option name="totallyTimeSpent" value="2519845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +896,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24800797" />
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.35756972" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" weight="0.35756972" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.24010417" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.32935324" />
@@ -1149,13 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1163,10 +1157,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="-1119">
+          <caret line="61" column="42" lean-forward="true" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          <folding>
+            <element signature="e#52#88#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
