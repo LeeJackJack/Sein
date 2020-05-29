@@ -20,7 +20,7 @@
     {
         $namespace = 'Api\\';
 
-        Route::get( 'getData' , $namespace . 'AdminController@getData' );
+        Route::post( 'getData' , $namespace . 'AdminController@getData' );
     } );
 
     Auth::routes();

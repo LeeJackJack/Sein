@@ -19,6 +19,6 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'oss-cn-beijing.aliyuncs.com','rcyf-test.oss-cn-beijing.aliyuncs.com','api/wx/uploadMiniProgramPic','api/wx/upLoadResumeFile',
+        'api/sein/getData/',
     ];
 }
