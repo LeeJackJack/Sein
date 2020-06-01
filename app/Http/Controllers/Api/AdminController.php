@@ -52,7 +52,7 @@
             //$account = $request->get( 'account' );
             $secret = $request->get( 'key' );
             $monitor_ids = explode( ',' , $request->get( 'monitor_ids' ) );
-            $now = Carbon::now()->timestamp;
+            $now = now()->timestamp . str_limit(now()->micro,3,'');
 
             //查对应参数表
             //设备
@@ -79,7 +79,7 @@
             {
                 //查询参数
                 $data = [];
-                $timestamp = Carbon::parse( $refs->timestamp )->timestamp;
+                $timestamp = Carbon::parse( $refs->timestamp )->timestamp . str_limit(Carbon::parse( $refs->timestamp )->micro,3,'');
                 $temp = [];
                 $result = Speedy::getModelInstance( 'equip' )->where( 'station_code' , $name )->orderBy( 'create_time' , 'DESC' )->first($parameter)->toArray();
                 foreach ($result as $key => $value)

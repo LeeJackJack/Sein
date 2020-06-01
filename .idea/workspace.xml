@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22139a31-c1be-4502-aee6-5de1671d231e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +79,8 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="477">
+              <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
               <folding>
                 <element signature="e#52#88#0#PHP" expanded="true" />
               </folding>
@@ -874,12 +873,12 @@
       <workItem from="1590714355595" duration="18823000" />
       <workItem from="1590753893360" duration="933000" />
       <workItem from="1590768036581" duration="5000" />
-      <workItem from="1590973117311" duration="10674000" />
+      <workItem from="1590973117311" duration="13118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2531848000" />
+    <option name="totallyTimeSpent" value="2534292000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -899,7 +898,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24800797" />
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.18824701" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.23406374" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.24010417" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.32935324" />
@@ -907,12 +907,11 @@
       <window_info anchor="right" id="Database" order="4" sideWeight="0.5004975" side_tool="true" weight="0.23802084" />
       <window_info anchor="right" x="1463" y="223" width="282" height="313" id="Structure" order="5" sideWeight="0.49850747" side_tool="true" weight="0.27395833" />
       <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868525" />
@@ -1169,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="477">
+          <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
           <folding>
             <element signature="e#52#88#0#PHP" expanded="true" />
           </folding>
