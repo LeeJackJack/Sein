@@ -12,6 +12,7 @@
         protected $parameter_map = [
             '671088644' => 'so2' ,
             '671088645' => 'co2' ,
+            '671088646' => 'co' ,
             '671088647' => 'no' ,
             '671088648' => 'no2' ,
             '671088649' => 'pm25' ,
@@ -26,6 +27,7 @@
         protected $parameter_map_reverse = [
             'so2'=>'671088644' ,
             'co2' => '671088645' ,
+            'co' => '671088646' ,
             'no' => '671088647' ,
             'no2' => '671088648' ,
             'pm25' => '671088649',
@@ -54,59 +56,119 @@
             $monitor_ids = explode( ',' , $request->get( 'monitor_ids' ) );
             $now = now()->timestamp . str_limit(now()->micro,3,'');
 
-            //查对应参数表
-            //设备
-            $name = 'Dev' . $this->quip_map[ $id ];
-            //参数
-            $parameter = [];
-            foreach ( $monitor_ids as $m )
+            if ($id == '05')
             {
-                if ( $this->parameter_map[ $m ] )
+                //查对应参数表
+                //设备
+                $name = 'Dev' . $this->quip_map[ $id ];
+                //参数
+                $parameter = [];
+                foreach ( $monitor_ids as $m )
                 {
-                    $p = $this->parameter_map[ $m ];
-                    array_push( $parameter , $p.'' );
+                    if ( $this->parameter_map[ $m ] )
+                    {
+                        $p = $this->parameter_map[ $m ];
+                        array_push( $parameter , $p.'' );
+                    }
                 }
-            }
 
-            //查询是否有获取参数权限
-            $refs = Speedy::getModelInstance( 'user_equip_ref' )
-                ->where( 'station_code' , $name )
-                //->where( 'userid' , $account )
-                ->where( 'password' , $secret )
-                ->first();
+                //查询是否有获取参数权限
+                $refs = Speedy::getModelInstance( 'user_equip_ref' )
+                    ->where( 'station_code' , $name )
+                    //->where( 'userid' , $account )
+                    ->where( 'password' , $secret )
+                    ->first();
 
-            if ($refs)
-            {
-                //查询参数
-                $data = [];
-                $timestamp = Carbon::parse( $refs->timestamp )->timestamp . str_limit(Carbon::parse( $refs->timestamp )->micro,3,'');
-                $temp = [];
-                $result = Speedy::getModelInstance( 'equip' )->where( 'station_code' , $name )->orderBy( 'create_time' , 'DESC' )->first($parameter)->toArray();
-                foreach ($result as $key => $value)
+                if ($refs)
                 {
-                    $arr = [];
-                    array_set( $arr , 'time' , $timestamp );
-                    array_set( $arr , 'value' , $value );
-                    array_set( $temp , $this->parameter_map_reverse[$key] , $arr );
-                }
-                array_set( $data , 'pos_time' , $now );
-                array_set( $data , 'res' , $temp );
+                    //查询参数
+                    $data = [];
+                    $timestamp = Carbon::parse( $refs->timestamp )->timestamp . str_limit(Carbon::parse( $refs->timestamp )->micro,3,'');
+                    $temp = [];
+                    $result = Speedy::getModelInstance( 'equip05' )->where( 'device_code' , $name )->orderBy( 'create_time' , 'DESC' )->first($parameter)->toArray();
+                    foreach ($result as $key => $value)
+                    {
+                        $arr = [];
+                        array_set( $arr , 'time' , $timestamp );
+                        array_set( $arr , 'value' , $value );
+                        array_set( $temp , $this->parameter_map_reverse[$key] , $arr );
+                    }
+                    array_set( $data , 'pos_time' , $now );
+                    array_set( $data , 'res' , $temp );
 
-                //返回结果
-                return response()->json(
-                    [
-                        'code' => '200' ,
-                        'msg' => 'success' ,
-                        'data' => $data,
-                    ] );
+                    //返回结果
+                    return response()->json(
+                        [
+                            'code' => '200' ,
+                            'msg' => 'success' ,
+                            'data' => $data,
+                        ] );
+                }else
+                {
+                    //返回错误
+                    return response()->json(
+                        [
+                            'code' => '200' ,
+                            'msg' => 'error' ,
+                        ] );
+                }
             }else
             {
-                //返回错误
-                return response()->json(
-                    [
-                        'code' => '200' ,
-                        'msg' => 'error' ,
-                    ] );
+                //查对应参数表
+                //设备
+                $name = 'Dev' . $this->quip_map[ $id ];
+                //参数
+                $parameter = [];
+                foreach ( $monitor_ids as $m )
+                {
+                    if ( $this->parameter_map[ $m ] )
+                    {
+                        $p = $this->parameter_map[ $m ];
+                        array_push( $parameter , $p.'' );
+                    }
+                }
+
+                //查询是否有获取参数权限
+                $refs = Speedy::getModelInstance( 'user_equip_ref' )
+                    ->where( 'station_code' , $name )
+                    //->where( 'userid' , $account )
+                    ->where( 'password' , $secret )
+                    ->first();
+
+                if ($refs)
+                {
+                    //查询参数
+                    $data = [];
+                    $timestamp = Carbon::parse( $refs->timestamp )->timestamp . str_limit(Carbon::parse( $refs->timestamp )->micro,3,'');
+                    $temp = [];
+                    $result = Speedy::getModelInstance( 'equip' )->where( 'station_code' , $name )->orderBy( 'create_time' , 'DESC' )->first($parameter)->toArray();
+                    foreach ($result as $key => $value)
+                    {
+                        $arr = [];
+                        array_set( $arr , 'time' , $timestamp );
+                        array_set( $arr , 'value' , $value );
+                        array_set( $temp , $this->parameter_map_reverse[$key] , $arr );
+                    }
+                    array_set( $data , 'pos_time' , $now );
+                    array_set( $data , 'res' , $temp );
+
+                    //返回结果
+                    return response()->json(
+                        [
+                            'code' => '200' ,
+                            'msg' => 'success' ,
+                            'data' => $data,
+                        ] );
+                }else
+                {
+                    //返回错误
+                    return response()->json(
+                        [
+                            'code' => '200' ,
+                            'msg' => 'error' ,
+                        ] );
+                }
             }
+
         }
     }
