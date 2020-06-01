@@ -89,7 +89,7 @@
                     array_set( $arr , 'value' , $value );
                     array_set( $temp , $this->parameter_map_reverse[$key] , $arr );
                 }
-                array_set( $data , 'post_time' , $now );
+                array_set( $data , 'pos_time' , $now );
                 array_set( $data , 'res' , $temp );
 
                 //返回结果

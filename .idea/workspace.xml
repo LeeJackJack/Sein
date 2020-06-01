@@ -71,7 +71,7 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="495">
               <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+            <state relative-caret-position="302">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#52#88#0#PHP" expanded="true" />
               </folding>
@@ -137,7 +137,7 @@
       <file leaf-file-name="VerifyCsrfToken.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="726">
               <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
             </state>
           </provider>
@@ -872,12 +872,14 @@
       <workItem from="1590541494705" duration="22795000" />
       <workItem from="1590627488261" duration="11479000" />
       <workItem from="1590714355595" duration="18823000" />
-      <workItem from="1590753893360" duration="277000" />
+      <workItem from="1590753893360" duration="933000" />
+      <workItem from="1590768036581" duration="5000" />
+      <workItem from="1590973117311" duration="10674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2520513000" />
+    <option name="totallyTimeSpent" value="2531848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,7 +899,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24800797" />
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.35756972" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.18824701" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.24010417" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.32935324" />
@@ -906,12 +908,12 @@
       <window_info anchor="right" x="1463" y="223" width="282" height="313" id="Structure" order="5" sideWeight="0.49850747" side_tool="true" weight="0.27395833" />
       <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868525" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -928,17 +930,17 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.319403" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3313433" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.5004975" side_tool="true" weight="0.23802084" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026042" side_tool="true" weight="0.33843017" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3313433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1153,22 +1155,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="495">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
+        <state relative-caret-position="726">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+        <state relative-caret-position="302">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="e#52#88#0#PHP" expanded="true" />
           </folding>
