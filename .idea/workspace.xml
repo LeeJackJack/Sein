@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22139a31-c1be-4502-aee6-5de1671d231e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/speedy.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/speedy.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,8 +62,8 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="85" column="101" selection-start-line="85" selection-start-column="101" selection-end-line="85" selection-end-column="101" />
+            <state relative-caret-position="267">
+              <caret line="94" column="165" selection-start-line="94" selection-start-column="165" selection-end-line="94" selection-end-column="165" />
               <folding>
                 <element signature="e#52#88#0#PHP" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
       <file leaf-file-name="2020_05_26_175136_create_equips_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_26_175136_create_equips_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="39" column="45" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="1221">
+              <caret line="39" column="45" selection-start-line="17" selection-start-column="12" selection-end-line="39" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -83,8 +83,8 @@
       <file leaf-file-name="Equips.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Equips.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="53" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="53" selection-end-column="6" />
+            <state relative-caret-position="1749">
+              <caret line="53" column="6" selection-start-line="8" selection-start-column="4" selection-end-line="53" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -92,7 +92,7 @@
       <file leaf-file-name="speedy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/speedy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
+            <state relative-caret-position="891">
               <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
             </state>
           </provider>
@@ -119,8 +119,8 @@
       <file leaf-file-name="Equip05.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Equip05.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="957">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -856,12 +856,13 @@
       <workItem from="1590714355595" duration="18823000" />
       <workItem from="1590753893360" duration="933000" />
       <workItem from="1590768036581" duration="5000" />
-      <workItem from="1590973117311" duration="17019000" />
+      <workItem from="1590973117311" duration="17949000" />
+      <workItem from="1591059804625" duration="22853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2538193000" />
+    <option name="totallyTimeSpent" value="2561976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -881,8 +882,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24800797" />
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.33665338" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.24010417" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.32935324" />
@@ -890,14 +890,15 @@
       <window_info anchor="right" id="Database" order="4" sideWeight="0.5004975" side_tool="true" weight="0.23802084" />
       <window_info anchor="right" x="1463" y="223" width="282" height="313" id="Structure" order="5" sideWeight="0.49850747" side_tool="true" weight="0.27395833" />
       <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32868525" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout>
     <layout-to-restore>
@@ -906,23 +907,23 @@
       <window_info anchor="bottom" id="npm" order="13" weight="0.32935324" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49950248" weight="0.23802084" />
-      <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5325444" side_tool="true" weight="0.18697916" />
       <window_info anchor="right" x="1463" y="223" width="282" height="313" id="Structure" order="5" sideWeight="0.49850747" side_tool="true" weight="0.18385416" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.319403" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3313433" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925585" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.5004975" side_tool="true" weight="0.23802084" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49739584" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026042" side_tool="true" weight="0.33843017" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3313433" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32935324" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Favorites" order="10" sideWeight="0.46745563" side_tool="true" weight="0.14626865" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1124,15 +1125,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Equips.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="53" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="53" selection-end-column="6" />
+        <state relative-caret-position="1749">
+          <caret line="53" column="6" selection-start-line="8" selection-start-column="4" selection-end-line="53" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_05_26_175136_create_equips_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="39" column="45" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="39" selection-end-column="45" />
+        <state relative-caret-position="1221">
+          <caret line="39" column="45" selection-start-line="17" selection-start-column="12" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1145,22 +1146,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/speedy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
+        <state relative-caret-position="891">
           <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Equip05.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="957">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="85" column="101" selection-start-line="85" selection-start-column="101" selection-end-line="85" selection-end-column="101" />
+        <state relative-caret-position="267">
+          <caret line="94" column="165" selection-start-line="94" selection-start-column="165" selection-end-line="94" selection-end-column="165" />
           <folding>
             <element signature="e#52#88#0#PHP" expanded="true" />
           </folding>

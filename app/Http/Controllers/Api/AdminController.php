@@ -44,7 +44,7 @@
             '02' => '9203M200500117' ,
             '03' => '9203M200500118' ,
             '04' => '9203M200500119' ,
-            '05' => '9707A200500021' ,
+            '05' => '9707A200500020' ,
         ];
 
         public function getData( Request $request )
@@ -65,10 +65,17 @@
                 $parameter = [];
                 foreach ( $monitor_ids as $m )
                 {
-                    if ( $this->parameter_map[ $m ] )
+                    if (array_key_exists($m,$this->parameter_map))
                     {
                         $p = $this->parameter_map[ $m ];
                         array_push( $parameter , $p.'' );
+                    }else
+                    {
+                        //传递错误的数据编号
+                        return response()->json([
+                            'code' => '200' ,
+                            'msg' => 'error' ,
+                        ]);
                     }
                 }
 
@@ -121,10 +128,17 @@
                 $parameter = [];
                 foreach ( $monitor_ids as $m )
                 {
-                    if ( $this->parameter_map[ $m ] )
+                    if (array_key_exists($m,$this->parameter_map))
                     {
                         $p = $this->parameter_map[ $m ];
                         array_push( $parameter , $p.'' );
+                    }else
+                    {
+                        //传递错误的数据编号
+                        return response()->json([
+                            'code' => '200' ,
+                            'msg' => 'error' ,
+                        ]);
                     }
                 }
 
