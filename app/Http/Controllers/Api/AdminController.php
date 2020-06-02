@@ -24,6 +24,20 @@
             '671088655' => 'direction' ,
         ];
 
+        protected $parameter_map05 = [
+            '671088644' => 'so2' ,
+            '671088645' => 'co2' ,
+            '671088646' => 'co' ,
+            '671088647' => 'no' ,
+            '671088648' => 'no2' ,
+            '671088649' => 'pm25' ,
+            '671088650' => 'pm10' ,
+            '671088651' => 'temp' ,
+            '671088652' => 'humi' ,
+            '671088653' => 'press' ,
+            '671088654' => 'speed' ,
+        ];
+
         protected $parameter_map_reverse = [
             'so2'=>'671088644' ,
             'co2' => '671088645' ,
@@ -37,6 +51,20 @@
             'press' => '671088653',
             'speed' => '671088654',
             'direction' => '671088655',
+        ];
+
+        protected $parameter_map_reverse05 = [
+            'so2'=>'671088644' ,
+            'co2' => '671088645' ,
+            'co' => '671088646' ,
+            'no' => '671088647' ,
+            'no2' => '671088648' ,
+            'pm25' => '671088649',
+            'pm10' => '671088650',
+            'temp' => '671088651',
+            'humi' => '671088652',
+            'press' => '671088653',
+            'speed' => '671088654',
         ];
 
         protected $quip_map = [
@@ -71,9 +99,9 @@
                 $parameter = [];
                 foreach ( $monitor_ids as $m )
                 {
-                    if (array_key_exists($m,$this->parameter_map))
+                    if (array_key_exists($m,$this->parameter_map05))
                     {
-                        $p = $this->parameter_map[ $m ];
+                        $p = $this->parameter_map05[ $m ];
                         array_push( $parameter , $p.'' );
                     }else
                     {
@@ -104,7 +132,7 @@
                         $arr = [];
                         array_set( $arr , 'time' , $timestamp );
                         array_set( $arr , 'value' , $value );
-                        array_set( $temp , $this->parameter_map_reverse[$key] , $arr );
+                        array_set( $temp , $this->parameter_map_reverse05[$key] , $arr );
                     }
                     array_set( $data , 'pos_time' , $now );
                     array_set( $data , 'res' , $temp );
