@@ -60,7 +60,13 @@
             {
                 //查对应参数表
                 //设备
-                $name = 'Dev' . $this->quip_map[ $id ];
+                if (array_key_exists($id,$this->quip_map))
+                {
+                    $name = 'Dev' . $this->quip_map[ $id ];
+                }else
+                {
+                    $name = 'Dev';
+                }
                 //参数
                 $parameter = [];
                 foreach ( $monitor_ids as $m )
@@ -123,7 +129,13 @@
             {
                 //查对应参数表
                 //设备
-                $name = 'Dev' . $this->quip_map[ $id ];
+                if (array_key_exists($id,$this->quip_map))
+                {
+                    $name = 'Dev' . $this->quip_map[ $id ];
+                }else
+                {
+                    $name = 'Dev';
+                }
                 //参数
                 $parameter = [];
                 foreach ( $monitor_ids as $m )
