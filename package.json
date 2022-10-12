@@ -26,6 +26,6 @@
     "dependencies": {
         "element-ui": "^2.11.1",
         "html2canvas": "^1.0.0-rc.5",
-        "jspdf": "^1.5.3"
+        "jspdf": "^2.5.1"
     }
 }
